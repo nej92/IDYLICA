@@ -96,26 +96,15 @@ header .logo{
     margin-top: -30px
 }
 
-header label{
-    border: solid;
-    border-color: #ffffff;
-}
-
 #btn-menu{
     display: none;
-
-}
-/*
-label{
-    border: solid;
-    border-color: #ffffff;
     
 }
-*/
+
 header .menu-ima{
-    position: relative;
-    right: px;
-    top: px;
+    position: absolute;
+    right: 35px;
+    top: 20px;
 }
 
 #btn-menu:checked ~ * .menu-ima {
@@ -127,9 +116,9 @@ header .menu-ima{
 }
 
 header .menu-ima-x{
-    position: relative;
-    right: s;
-    top: 1px;
+    position: absolute;
+    right: 35px;
+    top: 20px;
     transform: rotate(45deg);
     visibility: hidden;
 }
@@ -138,18 +127,24 @@ header .menu-ima-x{
     visibility: visible;
 }
 
+.lado-derecho{
+    display: flex;
+}
+
  .menu {
-    position: f;
-    background-color: #fafafa;
+    position: re;
+    background-color: transparent;
     color: #ffffff;
-    width: 320px;
+    width: auto;
     height: auto;
-    margin-right: s;
+    margin-top: 10px;
+    margin-right: 100px;
     transition: all 0.5s;
     visibility: hidden;
     }
 
 .menu ul{
+    list-style-type: none;
     flex-direction: column;
 }
 /*-------------------------------------MENU-----------------------------------------*/
