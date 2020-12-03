@@ -18,9 +18,10 @@ html{
 /*-------------------------------------MENU-----------------------------------------*/
 /*-------------------------------------MENU-----------------------------------------*/
 /*-------------------------------------MENU-----------------------------------------*/
-header{
+
+/*header{
     margin-top: 26px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .lado-derecho{
@@ -81,7 +82,76 @@ header label:hover{
     width: 18px;
     height: 12px;
 }
+*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
 
+header .logo{
+    position: d;
+    height: 200px;
+    width: 200px;
+    margin-left: -15px;
+    margin-top: -30px
+}
+
+header label{
+    border: solid;
+    border-color: #ffffff;
+}
+
+#btn-menu{
+    display: none;
+
+}
+/*
+label{
+    border: solid;
+    border-color: #ffffff;
+    
+}
+*/
+header .menu-ima{
+    position: relative;
+    right: px;
+    top: px;
+}
+
+#btn-menu:checked ~ * .menu-ima {
+    visibility: hidden;
+}
+
+#btn-menu:checked ~ * .menu-ima-x {
+    visibility: visible;
+}
+
+header .menu-ima-x{
+    position: relative;
+    right: s;
+    top: 1px;
+    transform: rotate(45deg);
+    visibility: hidden;
+}
+
+#btn-menu:checked ~ .menu{
+    visibility: visible;
+}
+
+ .menu {
+    position: f;
+    background-color: #fafafa;
+    color: #ffffff;
+    width: 320px;
+    height: auto;
+    margin-right: s;
+    transition: all 0.5s;
+    visibility: hidden;
+    }
+
+.menu ul{
+    flex-direction: column;
+}
 /*-------------------------------------MENU-----------------------------------------*/
 /*-------------------------------------MENU-----------------------------------------*/
 /*-------------------------------------MENU-----------------------------------------*/
