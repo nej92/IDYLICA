@@ -93,8 +93,44 @@ a{
     list-style-type: none;
     flex-direction: column;
 }
-/*--------------------------------MENU HAMBUR-----------------------------------*/
-/*--------------------------------MENU HAMBUR-----------------------------------*/
-/*--------------------------------MENU HAMBUR-----------------------------------*/
-/*--------------------------------MENU HAMBUR-----------------------------------*/
-/*--------------------------------MENU HAMBUR-----------------------------------*/
+/*-----------------------------------IMAGENES----------------------------------------*/
+/*-----------------------------------IMAGENES----------------------------------------*/
+/*-----------------------------------IMAGENES----------------------------------------*/
+/*-----------------------------------IMAGENES----------------------------------------*/
+/*-----------------------------------IMAGENES----------------------------------------*/
+
+#equipo{
+    height: 400px;
+    width: 500px;
+}
+
+.primera_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second_img{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.third_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cuarta_img{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont_text_img{
+    text-align: center;
+    
+}
