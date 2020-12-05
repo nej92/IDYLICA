@@ -6,7 +6,7 @@
 
 body{
     background-color: grey;
-    background-image: url("../imgs/2.png");
+    
 }
 
 html{
@@ -93,11 +93,57 @@ a{
     list-style-type: none;
     flex-direction: column;
 }
+
+/*-----------------------------------SERVICIOS----------------------------------------*/
+/*-----------------------------------SERVICIOS----------------------------------------*/
+/*-----------------------------------SERVICIOS----------------------------------------*/
+/*-----------------------------------SERVICIOS----------------------------------------*/
+/*-----------------------------------SERVICIOS----------------------------------------*/
+.servicios{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.serv_title{
+    position: a;
+}
+
+.serv-bloques{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.serv_imgs{
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /*-----------------------------------IMAGENES----------------------------------------*/
 /*-----------------------------------IMAGENES----------------------------------------*/
 /*-----------------------------------IMAGENES----------------------------------------*/
 /*-----------------------------------IMAGENES----------------------------------------*/
 /*-----------------------------------IMAGENES----------------------------------------*/
+
+.frase{
+    display: f;
+    
+}
+
+h1{
+    position: absolute;
+    font-family: s;
+}
+
+.perro{
+    height: 800px;
+    width: 100%;
+}
 
 #equipo{
     height: 400px;
