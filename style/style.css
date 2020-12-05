@@ -100,11 +100,12 @@ a{
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 .servicios{
-    display: flex;
-    height: auto;
+    display: fex ;
+    height: a;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .serv_title{
@@ -112,9 +113,14 @@ a{
 }
 
 .serv-bloques{
+    display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    justify-content: space-around;
+    
+}
+
+.serv_img_cont{
+    flex-direction: c;
 }
 
 .serv_imgs{
@@ -123,6 +129,29 @@ a{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.serv_text_img{
+    margin-right: 50px;
+    margin-left: 50px;
+    visibility: hidden;
+}
+
+#z:active ~ #z_text{
+    visibility: visible;
+}
+
+/*
+#btnLeft:onclick {
+    width:70px;
+    height:74px;
+}
+*/
+
+/*
+a:active {
+  background-color: yellow;
+}
+*/
 
 /*-----------------------------------IMAGENES----------------------------------------*/
 /*-----------------------------------IMAGENES----------------------------------------*/
