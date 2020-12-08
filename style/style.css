@@ -5,13 +5,19 @@
 }
 
 body{
-    background-color: grey;
+    background-color: #1e2244;
     
+}
+
+@font-face{
+    font-family: "DIN PRO 400";
+    src: url(/fonts/DIN\ Pro\ 400.otf);
 }
 
 html{
     color: #ffffff;
     font-size: 20px;
+    font-family: "DIN PRO 400";
 }
 /*--------------------------------MENU HAMBUR-----------------------------------*/
 /*--------------------------------MENU HAMBUR-----------------------------------*/
@@ -22,8 +28,8 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    border-bottom: solid;
-    border-color: aqua;
+    border-bottom: s;
+    border-color: c;
 
 }
 
@@ -94,11 +100,40 @@ a{
     flex-direction: column;
 }
 
+/*-----------------------------------FRASE----------------------------------------*/
+/*-----------------------------------FRASE----------------------------------------*/
+/*-----------------------------------FRASE----------------------------------------*/
+/*-----------------------------------FRASE----------------------------------------*/
+/*-----------------------------------FRASE----------------------------------------*/
+
+.frase{
+    display: flex;
+    font-family: "DIN PRO 400";
+    align-items: center;
+    justify-content: center;
+}
+
+.frase_text{
+    position: absolute;
+    font-size: 80px;
+}
+
+.agencia_text{
+    position: absolute;
+    font-size: 50px;
+}
+
+.perro{
+    height: 800px;
+    width: 100%;
+}
+
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
+
 .servicios{
     display: fex ;
     height: a;
@@ -110,6 +145,8 @@ a{
 
 .serv_title{
     position: a;
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 .serv-bloques{
@@ -133,23 +170,31 @@ a{
 .serv_text_img{
     margin-right: 100px;
     margin-left: 100px;
+}
+
+#text_z{
+    display: none;
+}
+
+#z_text{
     visibility: hidden;
 }
 
+#text_z:checked ~ #z_text{
+    visibility: visible;
+}
+
+
+/*
 #z:active ~ #z_text{
     visibility: visible;
 }
+*/
 
 /*
 #btnLeft:onclick {
     width:70px;
     height:74px;
-}
-*/
-
-/*
-a:active {
-  background-color: yellow;
 }
 */
 
@@ -167,11 +212,6 @@ a:active {
 h1{
     position: absolute;
     font-family: s;
-}
-
-.perro{
-    height: 800px;
-    width: 100%;
 }
 
 #equipo{
@@ -209,3 +249,11 @@ h1{
     text-align: center;
     
 }
+
+
+/*
+paleta:
+principal: #1e2244
+secundario para destacados: #f7c65
+ITEMS: #e63525
+*/
