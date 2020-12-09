@@ -9,26 +9,39 @@
 
 </head>
 <body>
+
 <!--MENU HAMBUR-->
-    <header>
+<header>
+
         <img class="logo" src="imgs/logos-02.png" alt="logo">
-    <div class="lado-derecho">
-            <input type="checkbox" id="btn-menu"/>
-            <label for="btn-menu">
-                <img class="menu-ima" src="imgs/menu.jpg" alt="menu">
-                <img class="menu-ima-x" src="imgs/X.jpg" alt="cruz">
-            </label>
-        <nav class="menu">
-            <ul>
-                <li><a href="#HOME" >HOME</a></li>
-                <li><a href="#NOSOTROS" >NOSOTROS</a></li>
-                <li><a href="#LO_QUE_HACEMOS" >LO QUE HACEMOS</a></li>
-                <li><a href="#SERVICIOS" >SERVICIOS</a></li>
-                <li><a href="#CONTACTO" >CONTACTO</a></li>
-            </ul>
-        </nav>
-    </div>
+
+        <div class="redes">
+            <img class="redes_imgs" src="imgs/face.png" alt="face">
+            <img class="redes_imgs" src="imgs/ig.png" alt="ig">
+            <img class="redes_imgs" src="imgs/mail.png" alt="mail">
+            <img class="redes_imgs" src="imgs/twitter.png" alt="twitter">
+        </div>
 </header>
+        
+
+        <div class="cont_menu">
+                <input type="checkbox" id="btn-menu"/>
+                <label for="btn-menu">
+                    <img class="menu-ima" src="imgs/menu.jpg" alt="menu">
+                    <img class="menu-ima-x" src="imgs/X.jpg" alt="cruz">
+                </label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#HOME" >HOME</a></li>
+                    <li><a href="#NOSOTROS" >NOSOTROS</a></li>
+                    <li><a href="#LO_QUE_HACEMOS" >LO QUE HACEMOS</a></li>
+                    <li><a href="#SERVICIOS" >SERVICIOS</a></li>
+                    <li><a href="#CONTACTO" >CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
 <!--FRASE-->
 <section class="frase">
     <h2 class="frase_text">HACEMOS POSIBLE LO IMPOSIBLE</h2>
@@ -38,7 +51,7 @@
 
 <!--SERVICIOS-->
 <div class="servicios">
-    <h2 class="serv_title">SERVICIOS</h2>
+    <h2 class="serv_title" id="SERVICIOS">SERVICIOS</h2>
 
         <div class="serv-bloques">
            <!---->
@@ -72,7 +85,7 @@
 
 <!--NOSOTROS-->
 <div class="nos_content">
-    <h3 class="nos_title_text">NOSOTROS</h3>
+    <h3 class="nos_title_text" id="NOSOTROS">NOSOTROS</h3>
 </div>
 
 <div class="primera_img">
@@ -120,8 +133,11 @@
     <h3>LO QUE HACEMOS</h3>
 </div>
 <!--CONTACTO-->
-<div>
-    <h3>CONTACTO</h3>
+
+<h3 class="contact_title" id="CONTACTO">CONTACTO</h3>
+
+<div class="form_contact">
+    
     <form action="">
         <div>
             <label for="nombre">Nombre y Apellido</label><br>
