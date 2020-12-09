@@ -111,10 +111,12 @@ a{
     font-family: "DIN PRO 400";
     align-items: center;
     justify-content: center;
+    /*background-image: url("../imgs/3.png");*/
 }
 
 .frase_text{
     position: absolute;
+    margin-bottom: 150px;
     font-size: 80px;
 }
 
@@ -147,6 +149,7 @@ a{
     position: a;
     font-size: 40px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .serv-bloques{
@@ -198,31 +201,36 @@ a{
 }
 */
 
-/*-----------------------------------IMAGENES----------------------------------------*/
-/*-----------------------------------IMAGENES----------------------------------------*/
-/*-----------------------------------IMAGENES----------------------------------------*/
-/*-----------------------------------IMAGENES----------------------------------------*/
-/*-----------------------------------IMAGENES----------------------------------------*/
-
-.frase{
-    display: f;
-    
-}
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
 
 h1{
     position: absolute;
     font-family: s;
 }
 
+.nos_title_text{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 #equipo{
     height: 400px;
     width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .primera_img{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #e63525;
+    margin: 35px;
 }
 
 .second_img{
@@ -230,12 +238,16 @@ h1{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+    background-color: #;
+    margin: 35px;
 }
 
 .third_img{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #e63525;
+    margin: 35px;
 }
 
 .cuarta_img{
@@ -243,6 +255,8 @@ h1{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+    background-color: #;
+    margin: 35px;
 }
 
 .cont_text_img{
