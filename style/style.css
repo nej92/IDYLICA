@@ -58,10 +58,6 @@ header{
 /*--------------------------------MENU HAMBUR-----------------------------------*/
 /*--------------------------------MENU HAMBUR-----------------------------------*/
 
-.cont_menu{
-    position: stick;
-}
-
 #btn-menu{
     display: none;
     
@@ -89,7 +85,6 @@ header{
     top: 20px;
     height: 35px;
     width: 35px;
-    transform: rotate(45deg);
     visibility: hidden;
 }
 
@@ -98,31 +93,37 @@ header{
 }
 
 .cont_menu{
-    display: flex;
+    display: flx;
+    position: sticky;
+    right: 100px;
+    top: 20px;
 }
 
  .menu {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
     position: absolute;
-    background-color: transparent;
-    color: #ffffff;
-    width: auto;
-    height: auto;
+    background-color: #e63525;
+    width: 500px;
+    height: 500px;
     right: 100px;
     top: 20px;
     transition: all 0.5s;
     visibility: hidden;
+    z-index: f;
     }
 
 a{
-    color: #ffffff;
+    color: #1e2244;
+    font-size: 25px;
     
-    border: s;
-    border-left: f;
 }
 
-.menu ul{
+ul{
     list-style-type: none;
-    flex-direction: column;
+    
 }
 
 /*-----------------------------------FRASE----------------------------------------*/
