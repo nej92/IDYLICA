@@ -27,22 +27,8 @@ html{
 
 header{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 200px;
     width: 100%;
-}
-
-.redes{
-    margin-top: px;
-    
-}
-
-.redes_imgs{
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .logo{
@@ -97,6 +83,7 @@ header{
     position: sticky;
     right: 100px;
     top: 20px;
+    z-index: 2;
 }
 
  .menu {
@@ -112,7 +99,7 @@ header{
     top: 20px;
     transition: all 0.5s;
     visibility: hidden;
-    z-index: f;
+    
     }
 
 a{
@@ -126,6 +113,16 @@ ul{
     
 }
 
+.redes_top{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.img_redes_foot{
+
+}
+
 /*-----------------------------------FRASE----------------------------------------*/
 /*-----------------------------------FRASE----------------------------------------*/
 /*-----------------------------------FRASE----------------------------------------*/
@@ -135,19 +132,35 @@ ul{
     display: flex;
     font-family: "DIN PRO 400";
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    /*background-image: url("../imgs/3.png");*/
+    height: 800px;
+    width: 100%;
+    
 }
 
 .frase_text{
     position: absolute;
     margin-bottom: 150px;
     font-size: 80px;
+    z-index: 1;
 }
 
 .agencia_text{
     position: absolute;
     font-size: 50px;
+}
+
+.otrotext{
+    position: absolute;
+    bottom: 200px;
+}
+
+.flechaabajo{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
 }
 
 .perro{
@@ -160,82 +173,74 @@ ul{
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 
-.servicios{
-    display: fex ;
-    height: a;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
 .serv_title{
-    position: a;
-    font-size: 40px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #e63525;
+    font-size: 40px;
+    margin-bottom: px;
 }
 
 .serv-bloques{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: px;
+    margin-bottom: px;
+    height: 800px;
+    width: 100%;
+    align-items:center ;
+    justify-content: center;
     
+    border: solid;
+    border-color: #e63525;
 }
 
-.serv_img_cont{
-    flex-direction: c;
-}
-
-.serv_imgs{
+.cont_text{
+    position: absolute;
+    background-color: #e63525;
+    margin-right: px;
+    margin-left: px;
     height: 500px;
     width: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
+    border: solid 2px #ffffff;
 }
 
-.serv_text_img{
+#uno{
+    align-self: flex-start;
+    left: px;
+}
+
+.serv_text{
+    display: flex;
+    align-items:center;
+    justify-content: center;
     margin-right: 100px;
     margin-left: 100px;
-}
-
-#text_z{
-    display: none;
+    border: solid;
+    background-color: #e63525;
+    height: 500px;
+    width: 500px;
 }
 
 #z_text{
-    visibility: hidden;
+    color: #1e2244;
+    transition: color 1s;
 }
 
-#text_z:checked ~ #z_text{
-    visibility: visible;
+#z_text:hover{
+    color: aliceblue;
 }
-
-
-/*
-#z:active ~ #z_text{
-    visibility: visible;
-}
-*/
-
-/*
-#btnLeft:onclick {
-    width:70px;
-    height:74px;
-}
-*/
 
 /*-----------------------------------NOSOTROS----------------------------------------*/
 /*-----------------------------------NOSOTROS----------------------------------------*/
 /*-----------------------------------NOSOTROS----------------------------------------*/
 /*-----------------------------------NOSOTROS----------------------------------------*/
 
-h1{
-    position: absolute;
-    font-family: s;
-}
+
 
 .nos_title_text{
+    text-decoration: underline;
+    text-decoration-color: #e63525;
     font-size: 40px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -252,7 +257,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #e63525;
+    border-bottom: solid;
+    border-color: #e63525;
     margin: 35px;
 }
 
@@ -261,7 +267,8 @@ h1{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    
+    border-bottom: solid;
+    border-color: #e63525;
     margin: 35px;
 }
 
@@ -269,7 +276,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #e63525;
+    border-bottom: solid;
+    border-color: #e63525;
     margin: 35px;
 }
 
@@ -282,9 +290,30 @@ h1{
     margin: 35px;
 }
 
+.ftnos{
+    height: 50px;
+    margin: 10px;
+    background-color: #e63525;
+}
+
 .cont_text_img{
     text-align: center;
     
+}
+
+/*------------------------------------LO QUE HACEMOS-------------------------------------*/
+/*------------------------------------LO QUE HACEMOS-------------------------------------*/
+/*------------------------------------LO QUE HACEMOS-------------------------------------*/
+/*------------------------------------LO QUE HACEMOS-------------------------------------*/
+
+.lqh{
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+
+.lqh_text{
+    display: s;
 }
 
 /*--------------------------------------CONTACTO-----------------------------------------*/
@@ -295,7 +324,6 @@ h1{
 .form_contact{
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;
     align-items: center;
     justify-content: center;
     background-color: #00001a;
@@ -308,9 +336,64 @@ h1{
     background-color: #00001a;
 }
 
+/*--------------------------------------FOOTER-----------------------------------------*/
+/*--------------------------------------FOOTER-----------------------------------------*/
+/*--------------------------------------FOOTER-----------------------------------------*/
+/*--------------------------------------FOOTER-----------------------------------------*/
+
+.pie{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    display: s;
+    left: 20px;
+}
+
+.redes_imgs{
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.ubicacion{
+    margin-right: 20px;
+}
+
+.pie_text{
+    position: s ;
+    
+}
+
+.ydi2020{
+    background-color: #e63525;
+}
+
+
+
+
 /*
 paleta:
 principal: #1e2244
-secundario para destacados: #f7c65
+secundario para destacados: #f7c650
 ITEMS: #e63525
+
+----------------------------------------------------------------------------------
+AGREGAR:
+preguntas frecuentes
+flecha hacia abajo en FRASE
+
+
+----------------------------------------------------------------------------------
+TIPOGRAFIA: DIN PRO
+principal (titulos): PRO 400
+textos: Pro Medium 500
+algo chiquito: PRO Light 300
+
+
+
 */
