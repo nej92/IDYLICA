@@ -119,10 +119,6 @@ ul{
     top: 20px;
 }
 
-.img_redes_foot{
-
-}
-
 /*-----------------------------------FRASE----------------------------------------*/
 /*-----------------------------------FRASE----------------------------------------*/
 /*-----------------------------------FRASE----------------------------------------*/
@@ -132,41 +128,41 @@ ul{
     display: flex;
     font-family: "DIN PRO 400";
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    
     height: 800px;
     width: 100%;
-    
+
+    background-image: url("../imgs/3.png");
+    background-size: auto 800px;
+    background-repeat: no-repeat;
+
+    border: solid #ffffff;
 }
 
 .frase_text{
-    position: absolute;
-    margin-bottom: 150px;
+    position: ;
+    margin-bottom: ;
     font-size: 80px;
     z-index: 1;
 }
 
 .agencia_text{
-    position: absolute;
+    position: ;
     font-size: 50px;
 }
 
 .otrotext{
-    position: absolute;
-    bottom: 200px;
+    position: s;
 }
 
 .flechaabajo{
-    position: absolute;
     height: 50px;
     width: 50px;
-    bottom: 30px;
+    bottom: px;
 }
 
-.perro{
-    height: 800px;
-    width: 100%;
-}
 
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
@@ -189,38 +185,43 @@ ul{
     height: 800px;
     width: 100%;
     align-items:center ;
-    justify-content: center;
+    justify-content: space-around;
     
     border: solid;
-    border-color: #e63525;
-}
-
-.cont_text{
-    position: absolute;
-    background-color: #e63525;
-    margin-right: px;
-    margin-left: px;
-    height: 500px;
-    width: 500px;
-    border: solid 2px #ffffff;
-}
-
-#uno{
-    align-self: flex-start;
-    left: px;
+    border-color: #25e63f;
 }
 
 .serv_text{
     display: flex;
     align-items:center;
     justify-content: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    border: solid;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: #e63525;
     height: 500px;
     width: 500px;
+
+    border: solid 2px #ecf01b;
 }
+
+.cont_text{
+    align-items: center;
+    justify-content: center;
+    background-color: #e63525;
+    margin-right: px;
+    margin-left: px;
+    height: 500px;
+    width: auto;
+    border: solid 2px #ffffff;
+    z-index: 1;
+}
+
+#uno{
+    align-self: ;
+    left: px;
+}
+
+
 
 #z_text{
     color: #1e2244;
