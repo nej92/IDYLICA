@@ -134,22 +134,19 @@ ul{
     height: 800px;
     width: 100%;
 
-    background-image: url("../imgs/3.png");
-    background-size: auto 800px;
-    background-repeat: no-repeat;
 
     border: solid #ffffff;
 }
 
 .frase_text{
-    position: ;
-    margin-bottom: ;
+    position: s;
+    margin-bottom: s;
     font-size: 80px;
     z-index: 1;
 }
 
 .agencia_text{
-    position: ;
+    position: s;
     font-size: 50px;
 }
 
@@ -217,7 +214,7 @@ ul{
 }
 
 #uno{
-    align-self: ;
+    align-self: s;
     left: px;
 }
 
