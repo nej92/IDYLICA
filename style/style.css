@@ -15,9 +15,9 @@ body{
 }
 
 html{
-    color: #ffffff;
+    
     font-size: 20px;
-    font-family: "DIN PRO 400";
+
 }
 
 /*----------------------------------ENCABEZADO-----------------------------------*/
@@ -29,6 +29,7 @@ header{
     display: flex;
     height: 200px;
     width: 100%;
+    border: solid #ffffff;
 }
 
 .logo{
@@ -105,6 +106,8 @@ header{
 a{
     color: #1e2244;
     font-size: 25px;
+    font-family: "DIN PRO 400";
+    color: #ffffff;
     
 }
 
@@ -125,17 +128,22 @@ ul{
 /*-----------------------------------FRASE----------------------------------------*/
 
 .frase{
-    display: flex;
-    font-family: "DIN PRO 400";
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     
     height: 800px;
     width: 100%;
 
 
     border: solid #ffffff;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+    }
+
+#carousel1{
+    height: 100%;
+    width: 100%;
 }
 
 .frase_text{
@@ -172,61 +180,88 @@ ul{
     text-decoration: underline;
     text-decoration-color: #e63525;
     font-size: 40px;
-    margin-bottom: px;
+    font-family: "DIN PRO 400";
+    color: #ffffff;
 }
 
 .serv-bloques{
     display: flex;
-    margin-top: px;
-    margin-bottom: px;
+    position: relative;
     height: 800px;
     width: 100%;
-    align-items:center ;
+    align-items: center;
     justify-content: space-around;
     
-    border: solid;
-    border-color: #25e63f;
+    border: solid 2px #25e63f;
 }
 
 .serv_text{
+    position: absolute;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: #e63525;
+    color: #ffffff;
+    background-color: s;
     height: 500px;
     width: 500px;
 
-    border: solid 2px #ecf01b;
+    border: solid 2px #ffffff;
 }
 
 .cont_text{
+    position: absolute;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e63525;
-    margin-right: px;
-    margin-left: px;
+    color: #ffffff;
+    background-color: #1e2244;
+    width: 500px;
     height: 500px;
-    width: auto;
-    border: solid 2px #ffffff;
     z-index: 1;
+    
+    border: solid 2px #ffffff;
 }
 
-#uno{
-    align-self: s;
-    left: px;
+#first_title{
+    left: 50px;
+    visibility: visible;
+    animation-delay: 1s;
 }
 
-
+#first_title:hover{
+    visibility: hidden;
+}
 
 #z_text{
-    color: #1e2244;
-    transition: color 1s;
+    left: 50px;
 }
 
-#z_text:hover{
-    color: aliceblue;
+#second_title{
+    visibility: visible;
+    animation-delay: 1s;
+    z-index: q;
+}
+
+#second_title:hover{
+    visibility: hidden;
+}
+
+#x_text{
+    z-index: s;
+}
+
+#third_title{
+    right: 50px;
+    visibility: visible;
+    animation-delay: 1s;
+}
+
+#third_title:hover{
+    visibility: hidden;
+}
+
+#y_text{
+    right: 50px;
 }
 
 /*-----------------------------------NOSOTROS----------------------------------------*/
@@ -242,6 +277,8 @@ ul{
     font-size: 40px;
     margin-left: 20px;
     margin-bottom: 20px;
+    font-family: "DIN PRO 400";
+    color: #ffffff;
 }
 
 #equipo{
@@ -299,6 +336,14 @@ ul{
     
 }
 
+.nos_persona{
+    color: #ffffff;
+}
+
+.nos_parr{
+    color: #ffffff;
+}
+
 /*------------------------------------LO QUE HACEMOS-------------------------------------*/
 /*------------------------------------LO QUE HACEMOS-------------------------------------*/
 /*------------------------------------LO QUE HACEMOS-------------------------------------*/
@@ -323,6 +368,7 @@ ul{
     display: flex;
     margin-top: 20px;
     align-items: center;
+    color: #ffffff;
     justify-content: center;
     background-color: #00001a;
 }
@@ -331,6 +377,7 @@ ul{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #ffffff;
     background-color: #00001a;
 }
 
@@ -345,6 +392,7 @@ ul{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    border: solid #ffffff;
 }
 
 .redes{
