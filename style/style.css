@@ -145,16 +145,12 @@ ul{
 #carousel1{
     height: 100%;
     width: 100%;
-}
-
-.carousel-item{
-    position: relative;
-}
+    }
 
 .frase_text{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 20%;
     font-size: 80px;
     color: #ffffff;
     z-index: 100;
@@ -173,7 +169,7 @@ ul{
     position: absolute;
     height: 50px;
     width: 50px;
-    margin-left: 48.6%;
+    left: 48.6%;
     bottom: 50px;
     z-index: 100;
 }
@@ -205,6 +201,66 @@ ul{
     border: solid 2px #25e63f;
 }
 
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 500px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7c650;
+    color: #1e2244;
+}
+
+/* Style the back side */
+.flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7c650;
+    color: #1e2244;
+    transform: rotateY(180deg);
+}
+
+.front-text{
+    justify-content: s;
+}
+
+.back-text{
+
+}
+
+/*
 .serv_text{
     position: absolute;
     display: flex;
@@ -273,6 +329,7 @@ ul{
 #y_text{
     right: 50px;
 }
+*/
 
 /*-----------------------------------NOSOTROS----------------------------------------*/
 /*-----------------------------------NOSOTROS----------------------------------------*/
