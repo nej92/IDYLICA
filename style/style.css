@@ -156,25 +156,39 @@ ul{
     z-index: 100;
 }
 
-.agencia_text{
-    position: s;
-    font-size: 50px;
-}
-
-.otrotext{
-    position: s;
-}
-
 .flechaabajo{
     position: absolute;
     height: 50px;
     width: 50px;
-    left: 48.6%;
-    bottom: 50px;
+    left: 25.6%;
+    bottom: 100px;
     z-index: 100;
+    animation-name: flechaabajo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
+.flechaabajo1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 75.6%;
+    bottom: 100px;
+    z-index: 100;
+    animation-name: flechaabajo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes flechaabajo1{
+    from {bottom: 75px;}
+    to {bottom: 30px;}
+}
+
+@keyframes flechaabajo{
+    from {bottom: 100px;}
+    to {bottom: 30px;}
+}
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
@@ -250,14 +264,6 @@ ul{
     background-color: #f7c650;
     color: #1e2244;
     transform: rotateY(180deg);
-}
-
-.front-text{
-    justify-content: s;
-}
-
-.back-text{
-
 }
 
 /*
