@@ -1,6 +1,0 @@
-paleta:
-principal: #1e2244
-secundario para destacados: #f7c65
-ITEMS: #e63525
-
-Tipografia: DIN PRO

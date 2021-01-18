@@ -38,7 +38,6 @@ header{
     height: 200px;
     width: 200px;
     left: 20px;
-    margin-top: px;
 }
 
 /*--------------------------------MENU HAMBUR-----------------------------------*/
@@ -88,7 +87,7 @@ header{
     z-index: 2;
 }
 
- .menu {
+.menu {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -129,7 +128,7 @@ ul{
 /*-----------------------------------FRASE----------------------------------------*/
 
 .frase{
-    
+    position: relative;
     height: 800px;
     width: 100%;
 
@@ -138,6 +137,7 @@ ul{
 }
 
 .carousel-inner{
+    display: flex;
     width: 100%;
     height: 100%;
     }
@@ -147,11 +147,17 @@ ul{
     width: 100%;
 }
 
+.carousel-item{
+    position: relative;
+}
+
 .frase_text{
-    position: s;
-    margin-bottom: s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     font-size: 80px;
-    z-index: 1;
+    color: #ffffff;
+    z-index: 100;
 }
 
 .agencia_text{
@@ -164,9 +170,12 @@ ul{
 }
 
 .flechaabajo{
+    position: absolute;
     height: 50px;
     width: 50px;
-    bottom: px;
+    margin-left: 48.6%;
+    bottom: 50px;
+    z-index: 100;
 }
 
 
@@ -270,8 +279,6 @@ ul{
 /*-----------------------------------NOSOTROS----------------------------------------*/
 /*-----------------------------------NOSOTROS----------------------------------------*/
 
-
-
 .nos_title_text{
     text-decoration: underline;
     text-decoration-color: #e63525;
@@ -359,92 +366,16 @@ ul{
 .lqh_text{
     color: #ffffff;
 }
-/*-----------------------------------CONTACTOGOOGLE--------------------------------------*/
-/*-----------------------------------CONTACTOGOOGLE--------------------------------------*/
-/*-----------------------------------CONTACTOGOOGLE--------------------------------------*/
-/*-----------------------------------CONTACTOGOOGLE--------------------------------------*/
+/*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
+/*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
+/*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
+/*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
 
 .google_form{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px ;
 }
-
-/*--------------------------------------CONTACTO-----------------------------------------*/
-/*--------------------------------------CONTACTO-----------------------------------------*/
-/*--------------------------------------CONTACTO-----------------------------------------*/
-/*--------------------------------------CONTACTO-----------------------------------------*/
-
-.form_contact{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    color: #ffffff;
-    justify-content: center;
-    background-color: #00001a;
-}
-
-.contact_title{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    background-color: #00001a;
-}
-
-/*--------------------------------------CONTACTO2-----------------------------------------*/
-/*--------------------------------------CONTACTO2-----------------------------------------*/
-/*--------------------------------------CONTACTO2-----------------------------------------*/
-/*--------------------------------------CONTACTO2-----------------------------------------*/
-
-.templatemo_contacttitle {
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-}
-
-.templatemo_sub_contacttitle {
-    width: 100%;
-    font-size: 22px;
-    color: #91bf24;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.templatemo_contact {
-    margin: 30px;
-    width: 100%;
-    margin-left: 15%;
-}
-
-.templatemo_contactform input, textarea {
-    width: 100%;
-    background: #282828;
-    border: 1px solid #393939;
-    padding: 7px 10px;
-    margin: 0px 0px 10px 0px;
-    background-color: #FAFAFA;
-}
-
-.templatemo_contactform textarea {
-    height: 100px;
-}
-
-
-.templatemo_contactform .btn-primary {
-    background: #92bf24;
-    border: none;
-    border-radius: 0px;
-    color: #3d5602;
-    font-weight: 800;
-}
-
-.templatemo_contactform .btn-primary:hover {
-    background: #a6d82c;
-}
-
 
 /*--------------------------------------FOOTER-----------------------------------------*/
 /*--------------------------------------FOOTER-----------------------------------------*/
@@ -453,7 +384,7 @@ ul{
 
 .pie{
     display: flex;
-    height: 80px;
+    height: 100px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -461,7 +392,6 @@ ul{
 }
 
 .redes{
-    display: s;
     left: 20px;
 }
 
@@ -472,12 +402,14 @@ ul{
 }
 
 .ubicacion{
+    color: #ffffff;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .pie_text{
-    position: s ;
-    
+    color: #ffffff;
+    margin-top: 10px;
 }
 
 .ydi2020{
@@ -504,7 +436,4 @@ TIPOGRAFIA: DIN PRO
 principal (titulos): PRO 400
 textos: Pro Medium 500
 algo chiquito: PRO Light 300
-
-
-
 */
