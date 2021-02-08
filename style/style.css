@@ -29,8 +29,9 @@ header{
     display: flex;
     height: 200px;
     width: 100%;
+
+
     border: solid #ffffff;
-    
 }
 
 .logo{
@@ -38,6 +39,9 @@ header{
     height: 200px;
     width: 200px;
     left: 20px;
+
+
+    border: solid #ffffff;
 }
 
 /*--------------------------------MENU HAMBUR-----------------------------------*/
@@ -47,7 +51,7 @@ header{
 
 #btn-menu{
     display: none;
-    
+    border: solid #ffffff;
 }
 
 .menu-ima{
@@ -56,6 +60,9 @@ header{
     width: 35px;
     right: 35px;
     top: 20px;
+
+
+    border: solid #ffffff;
 }
 
 #btn-menu:checked ~ * .menu-ima {
@@ -73,6 +80,8 @@ header{
     height: 35px;
     width: 35px;
     visibility: hidden;
+
+    border: solid #ffffff;
 }
 
 #btn-menu:checked ~ .menu{
@@ -80,11 +89,14 @@ header{
 }
 
 .cont_menu{
-    display: flx;
+    display: f;
+    width: 100%;
     position: sticky;
     right: 100px;
     top: 20px;
-    z-index: 2;
+    z-index: 100;
+
+    border: solid #ffffff;
 }
 
 .menu {
@@ -101,6 +113,7 @@ header{
     transition: all 0.5s;
     visibility: hidden;
     
+    border: solid #ffffff;
     }
 
 a{
@@ -109,6 +122,7 @@ a{
     font-family: "DIN PRO 400";
     color: #ffffff;
     
+    border: solid #ffffff;
 }
 
 ul{
@@ -120,6 +134,8 @@ ul{
     position: absolute;
     right: 100px;
     top: 20px;
+
+    border: solid #ffffff;
 }
 
 /*-----------------------------------FRASE----------------------------------------*/
@@ -140,11 +156,15 @@ ul{
     display: flex;
     width: 100%;
     height: 100%;
+
+    border: solid #ffffff;
     }
 
 #carousel1{
     height: 100%;
     width: 100%;
+
+    border: solid #ffffff;
     }
 
 .frase_text{
@@ -153,7 +173,9 @@ ul{
     left: 20%;
     font-size: 80px;
     color: #ffffff;
-    z-index: 100;
+    z-index: 90;
+
+    border: solid #ffffff;
 }
 
 .flechaabajo{
@@ -162,10 +184,12 @@ ul{
     width: 50px;
     left: 25.6%;
     bottom: 100px;
-    z-index: 100;
+    z-index: 90;
     animation-name: flechaabajo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+
+    border: solid #ffffff;
 }
 
 .flechaabajo1{
@@ -174,10 +198,12 @@ ul{
     width: 50px;
     left: 75.6%;
     bottom: 100px;
-    z-index: 100;
+    z-index: 90;
     animation-name: flechaabajo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+
+    border: solid #ffffff;
 }
 
 @keyframes flechaabajo1{
@@ -201,25 +227,29 @@ ul{
     text-decoration-color: #e63525;
     font-size: 40px;
     font-family: "DIN PRO 400";
-    color: #ffffff;
+    color: #ffffff;    
+
+    border: solid #ffffff;
 }
 
 .serv-bloques{
     display: flex;
     position: relative;
-    height: 800px;
+    height: 600px;
     width: 100%;
     align-items: center;
     justify-content: space-around;
     
-    border: solid 2px #25e63f;
+    border: solid #ffffff;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 400px;
+  width: 640px;
   height: 500px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+  border: solid #ffffff;
 }
 
 /* This container is needed to position the front and back side */
@@ -230,6 +260,8 @@ ul{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+
+  border: solid #ffffff;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -244,6 +276,8 @@ ul{
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+
+  border: solid #ffffff;
 }
 
 /* Style the front side */
@@ -253,6 +287,8 @@ ul{
     align-items: center;
     background-color: #f7c650;
     color: #1e2244;
+
+    border: solid #ffffff;
 }
 
 /* Style the back side */
@@ -264,83 +300,22 @@ ul{
     background-color: #f7c650;
     color: #1e2244;
     transform: rotateY(180deg);
+
+    border: solid #ffffff;
 }
 
-/*
-.serv_text{
-    position: absolute;
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+/*-----------------------------------NOSOTROS----------------------------------------*/
+
+.content_tamaño{
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    background-color: s;
-    height: 500px;
-    width: 500px;
+    flex-direction: column;
 
-    border: solid 2px #ffffff;
+    border: solid #ffffff;
 }
-
-.cont_text{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    background-color: #1e2244;
-    width: 500px;
-    height: 500px;
-    z-index: 1;
-    
-    border: solid 2px #ffffff;
-}
-
-#first_title{
-    left: 50px;
-    visibility: visible;
-    animation-delay: 1s;
-}
-
-#first_title:hover{
-    visibility: hidden;
-}
-
-#z_text{
-    left: 50px;
-}
-
-#second_title{
-    visibility: visible;
-    animation-delay: 1s;
-    z-index: q;
-}
-
-#second_title:hover{
-    visibility: hidden;
-}
-
-#x_text{
-    z-index: s;
-}
-
-#third_title{
-    right: 50px;
-    visibility: visible;
-    animation-delay: 1s;
-}
-
-#third_title:hover{
-    visibility: hidden;
-}
-
-#y_text{
-    right: 50px;
-}
-*/
-
-/*-----------------------------------NOSOTROS----------------------------------------*/
-/*-----------------------------------NOSOTROS----------------------------------------*/
-/*-----------------------------------NOSOTROS----------------------------------------*/
-/*-----------------------------------NOSOTROS----------------------------------------*/
 
 .nos_title_text{
     text-decoration: underline;
@@ -350,6 +325,8 @@ ul{
     margin-bottom: 20px;
     font-family: "DIN PRO 400";
     color: #ffffff;
+
+    border: solid #ffffff;
 }
 
 #equipo{
@@ -357,6 +334,10 @@ ul{
     width: 500px;
     margin-top: 15px;
     margin-bottom: 15px;
+
+    border-radius: 50%;
+
+    border: solid #ffffff;
 }
 
 .primera_img{
@@ -366,6 +347,8 @@ ul{
     border-bottom: solid;
     border-color: #e63525;
     margin: 35px;
+
+    border: solid #ffffff;
 }
 
 .second_img{
@@ -376,6 +359,8 @@ ul{
     border-bottom: solid;
     border-color: #e63525;
     margin: 35px;
+
+    border: solid #ffffff;
 }
 
 .third_img{
@@ -392,34 +377,37 @@ ul{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    
+    width: ;
     margin: 35px;
 }
 
-.ftnos{
-    height: 50px;
-    margin: 10px;
-    background-color: #e63525;
-}
 
 .cont_text_img{
     text-align: center;
+
+    border: solid #ffffff;
     
 }
 
 .nos_persona{
     color: #ffffff;
+
+    border: solid #ffffff;
 }
 
 .nos_parr{
     color: #ffffff;
+
+    border: solid #ffffff;
 }
 
-/*------------------------------------LO QUE HACEMOS-------------------------------------*/
-/*------------------------------------LO QUE HACEMOS-------------------------------------*/
-/*------------------------------------LO QUE HACEMOS-------------------------------------*/
-/*------------------------------------LO QUE HACEMOS-------------------------------------*/
+/*------------------------------------OTRA SECCION-------------------------------------*/
+/*------------------------------------OTRA SECCION-------------------------------------*/
+/*------------------------------------OTRA SECCION-------------------------------------*/
+/*------------------------------------OTRA SECCION-------------------------------------*/
 
+
+/*
 .lqh{
     display: flex;
     height: 800px;
@@ -429,15 +417,32 @@ ul{
 .lqh_text{
     color: #ffffff;
 }
+*/
 /*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
 /*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
 /*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
 /*-----------------------------------CONTACTO GOOGLE--------------------------------------*/
 
 .google_form{
+    position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 20px ;
+    -webkit-image-set: url("");
+    background-color: s;
+    width: 100%;
+
+    border: solid #ffffff;
+}
+
+.parche{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    bottom: 0.5px;
+    background-color: #1e2244;
+    
+    border: solid #ffffff;
 }
 
 /*--------------------------------------FOOTER-----------------------------------------*/
@@ -451,33 +456,129 @@ ul{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+
     border: solid #ffffff;
 }
 
 .redes{
     left: 20px;
+
+    border: solid #ffffff;
 }
 
 .redes_imgs{
     margin-left: 20px;
     height: 50px;
     width: 50px;
+
+    border: solid #ffffff;
 }
 
 .ubicacion{
     color: #ffffff;
     margin-right: 20px;
     margin-top: 10px;
+
+    border: solid #ffffff;
 }
 
 .pie_text{
     color: #ffffff;
     margin-top: 10px;
+
+    border: solid #ffffff;
 }
 
 .ydi2020{
     background-color: #e63525;
+
+    border: solid #ffffff;
 }
+
+
+/*--------------------------------------RESPONSIVE-----------------------------------------*/
+/*--------------------------------------RESPONSIVE-----------------------------------------*/
+/*--------------------------------------RESPONSIVE-----------------------------------------*/
+/*--------------------------------------RESPONSIVE-----------------------------------------*/
+
+@media (max-width: 680px){
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .redes_imgs{
+        height: 30px;
+        width: 30px;
+    }
+
+    .menu {
+       width: 200px;
+       height: 200px;
+       
+       }
+    a{
+        font-size: 15px;
+    }
+
+    header{
+        height: 120px;
+    }
+
+    .frase{
+        height: 300px;
+    }
+
+    .frase_text{
+        font-size: 25px;
+    }
+    .flechaabajo1{
+        height: 20px;
+        width: 20px;
+    }
+
+    .flechaabajo{
+        height: 20px;
+        width: 20px;
+    }
+
+    @keyframes flechaabajo1{
+        from {bottom: 55px;}
+        to {bottom: 10px;}
+    }
+    
+    @keyframes flechaabajo{
+        from {bottom: 55px;}
+        to {bottom: 10px;}
+    }
+
+    .serv_title{
+        font-size: 20px;
+    }
+
+    .serv-bloques{
+        height: 250px;
+    }
+
+    .flip-card{
+        height: 250px;
+        width: 130px;
+    }
+
+    .nos_title_text{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #equipo{
+        height: 200px;
+        width: 250px;
+    }
+
+
+
+
 
 
 

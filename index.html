@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     
     
     <title>IDYLICA</title>
@@ -14,26 +14,27 @@
 
 <!--MENU HAMBUR-->
 <div class="cont_menu">
+
     <input type="checkbox" id="btn-menu"/>
     <label for="btn-menu">
         <img class="menu-ima" src="imgs/menu_hambur01.png" alt="menu">
         <img class="menu-ima-x" src="imgs/equis.webp" alt="cruz">
     </label>
-<nav class="menu">
-    <ul>
-        <li><a href="#HOME" >HOME</a></li>
-        <li><a href="#NOSOTROS" >NOSOTROS</a></li>
-        <li><a href="#LO_QUE_HACEMOS" >PREGUNTAS FRECUENTES</a></li>
-        <li><a href="#SERVICIOS" >SERVICIOS</a></li>
-        <li><a href="#CONTACTO" >CONTACTO</a></li>
-    </ul>
-    
-</nav>
 
-<div class="redes_top">
-<a id="img_redes_foot" href="https://www.facebook.com/IDYLICAAGENCIA" target="blank"> <img class="redes_imgs" src="imgs/face01.png" alt="face"> </a>
-<a id="img_redes_foot" href="https://www.instagram.com/idylica.agencia/" target="blank"> <img class="redes_imgs" src="imgs/ig01.png" alt="ig"> </a>
-</div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#NOSOTROS" >NOSOTROS</a></li>
+            <li><a href="#LO_QUE_HACEMOS" >OTRA SECCION</a></li>
+            <li><a href="#SERVICIOS" >SERVICIOS</a></li>
+            <li><a href="#CONTACTO" >CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="redes_top">
+        <a id="img_redes_foot" href="https://www.facebook.com/IDYLICAAGENCIA" target="blank"> <img class="redes_imgs" src="imgs/face01.png" alt="face"> </a>
+        <a id="img_redes_foot" href="https://www.instagram.com/idylica.agencia/" target="blank"> <img class="redes_imgs" src="imgs/ig01.png" alt="ig"> </a>
+    </div>
+
 </div>
 
 <header>
@@ -44,6 +45,7 @@
         
 <!--FRASE-->
 <div class="frase">
+
     <div id="carousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -77,13 +79,7 @@
             <li data-target="#carousel1" data-slide-to="1"></li>
             <li data-target="#carousel1" data-slide-to="2"></li>
         </ol>
-        
     </div>
-    
-    <!--
-    <h2 class="frase_text">HACEMOS POSIBLE LO IMPOSIBLE</h2>
-    <h2 class="agencia_text">AGENCIA & MULTIDISCIPLINARIA</h2>
-    <h2 class="otrotext">LALALALLA</h2>-->
     
 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -138,82 +134,74 @@
                 </div>
               </div>
 
-           <!--
-                <p class="cont_text" id="first_title">FIRST TITLE</p>
-                <p class="serv_text" id="z_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit sint, 
-                nobis assumenda debitis ullam, molestiae nihil saepe sequi, consectetur reiciendis 
-                unde ad eaque tenetur dolor dolorem at quia ut?</p>
-                
-                <p class="cont_text" id="second_title">SECOND TITLE</p>
-                <p class="serv_text" id="x_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit sint, 
-                nobis assumenda debitis ullam, molestiae nihil saepe sequi, consectetur reiciendis 
-                unde ad eaque tenetur dolor dolorem at quia ut?</p>
-                
-                <p class="cont_text" id="third_title">THIRD TITLE</p>
-                <p class="serv_text" id="y_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit sint, 
-                nobis assumenda debitis ullam, molestiae nihil saepe sequi, consectetur reiciendis 
-                unde ad eaque tenetur dolor dolorem at quia ut?</p>
-                -->
         </div>
 </div>
 
 <!--NOSOTROS-->
-<div class="nos_content">
-    <h3 class="nos_title_text" id="NOSOTROS">NOSOTROS</h3>
+<div class="content_tamaño">
+        <div>
+            <h3 class="nos_title_text" id="NOSOTROS">NOSOTROS</h3>
+        </div>
+
+        <div class="primera_img">
+            <video onloadedmetadata="this.muted=true" autoplay loop alt="persona1" id="equipo">
+            <source src="imgs/CARLA.mov"> 
+            </video>
+            <div class="cont_text_img">
+                    <h3 class="nos_persona">PERSONA</h3>
+                    <p class="nos_parr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis aliquam adipisci vel praesentium?
+                    </p>
+            </div>
+        </div>  
+        <div class="second_img" >
+            <video onloadedmetadata="this.muted=true" autoplay loop alt="persona2" id="equipo">
+                <source src="imgs/MARCIA.mp4"> 
+                </video>
+            <div class="cont_text_img">
+                    <h3 class="nos_persona">PERSONA</h3>
+                    <p class="nos_parr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis aliquam adipisci vel praesentium?
+                    </p>
+            </div>
+        </div>
+        <!--
+        <div class="third_img">
+            <img src="imgs/per2.jpg" alt="persona3" id="equipo">
+            <div class="cont_text_img">
+                    <h3 class="nos_persona">PERSONA</h3>
+                    <p class="nos_parr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis aliquam adipisci vel praesentium?
+                    </p>
+            </div>
+        </div>
+        <div class="cuarta_img">
+            <img src="imgs/per4.jpg" alt="persona4" id="equipo">
+            <div class="cont_text_img">
+                    <h3 class="nos_persona">PERSONA</h3>
+                    <p class="nos_parr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis aliquam adipisci vel praesentium?
+                    </p>
+            </div>
+        </div>
+        -->
 </div>
 
-<div class="primera_img">
-    <video onloadedmetadata="this.muted=true" autoplay loop alt="persona1" id="equipo">
-    <source src="imgs/CARLA.mov"> 
-    </video>
-    <div class="cont_text_img">
-            <h3 class="nos_persona">PERSONA</h3>
-            <p class="nos_parr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Perspiciatis aliquam adipisci vel praesentium?
-            </p>
-    </div>
-</div>  
-<div class="second_img" >
-    <video onloadedmetadata="this.muted=true" autoplay loop alt="persona2" id="equipo">
-        <source src="imgs/MARCIA.mp4"> 
-        </video>
-    <div class="cont_text_img">
-            <h3 class="nos_persona">PERSONA</h3>
-            <p class="nos_parr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Perspiciatis aliquam adipisci vel praesentium?
-            </p>
-    </div>
-</div>
-<div class="third_img">
-    <img src="imgs/per2.jpg" alt="persona3" id="equipo">
-    <div class="cont_text_img">
-            <h3 class="nos_persona">PERSONA</h3>
-            <p class="nos_parr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Perspiciatis aliquam adipisci vel praesentium?
-            </p>
-    </div>
-</div>
-<div class="cuarta_img">
-    <img src="imgs/per4.jpg" alt="persona4" id="equipo">
-    <div class="cont_text_img">
-            <h3 class="nos_persona">PERSONA</h3>
-            <p class="nos_parr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Perspiciatis aliquam adipisci vel praesentium?
-            </p>
-    </div>
-</div>
-
+<!--
 <div class="lqh">
-    <h3 class="lqh_text">LO QUE HACEMOS</h3>
+    <h3 class="lqh_text"></h3>
 </div>
+-->
 
 <!--CONTACTO-->
-<div class="google_form">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9JLe3kNiTAiFBlvHd6bTPLw44YbcShEP3VHdOF2BTammr_Q/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<div id="CONTACTO" class="google_form">
+    
+    <iframe class="google_form_scroll" src="https://docs.google.com/forms/d/e/1FAIpQLSd9JLe3kNiTAiFBlvHd6bTPLw44YbcShEP3VHdOF2BTammr_Q/viewform?embedded=true" width="640" height="905" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <div class="parche"></div>
 </div>
 
 <!--FOOTER-->
@@ -223,9 +211,9 @@
         <a id="img_redes_foot" href="https://www.instagram.com/idylica.agencia/" target="blank"> <img class="redes_imgs" src="imgs/ig01.png" alt="ig"> </a>
     </div>
 
-    <p class="pie_text">IDYLICA 2020 <span class="ydi2020">Todos los derechos reservados</span></p>
+    <p class="pie_text">IDYLICA 2021 <span class="ydi2020">Todos los derechos reservados</span></p>
 
-    <p class="ubicacion">ubicacion/telefono</p>
+    <p class="ubicacion">BSAS</p>
 
 </footer>
 
