@@ -572,9 +572,18 @@ ul{
     }
 
     #equipo{
-        height: 200px;
-        width: 250px;
+        height: 150px;
+        width: 200px;
     }
+
+    .nos_persona{
+        font-size: 15px;
+    }
+    
+    .nos_parr{
+        font-size: 20px;
+    }
+
 
 
 
