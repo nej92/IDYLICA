@@ -30,8 +30,6 @@ header{
     height: 200px;
     width: 100%;
 
-
-    border: solid #ffffff;
 }
 
 .logo{
@@ -40,8 +38,6 @@ header{
     width: 200px;
     left: 20px;
 
-
-    border: solid #ffffff;
 }
 
 /*--------------------------------MENU HAMBUR-----------------------------------*/
@@ -51,7 +47,6 @@ header{
 
 #btn-menu{
     display: none;
-    border: solid #ffffff;
 }
 
 .menu-ima{
@@ -61,8 +56,6 @@ header{
     right: 35px;
     top: 20px;
 
-
-    border: solid #ffffff;
 }
 
 #btn-menu:checked ~ * .menu-ima {
@@ -81,7 +74,6 @@ header{
     width: 35px;
     visibility: hidden;
 
-    border: solid #ffffff;
 }
 
 #btn-menu:checked ~ .menu{
@@ -96,7 +88,6 @@ header{
     top: 20px;
     z-index: 100;
 
-    border: solid #ffffff;
 }
 
 .menu {
@@ -113,7 +104,6 @@ header{
     transition: all 0.5s;
     visibility: hidden;
     
-    border: solid #ffffff;
     }
 
 a{
@@ -122,7 +112,6 @@ a{
     font-family: "DIN PRO 400";
     color: #ffffff;
     
-    border: solid #ffffff;
 }
 
 ul{
@@ -135,7 +124,6 @@ ul{
     right: 100px;
     top: 20px;
 
-    border: solid #ffffff;
 }
 
 /*-----------------------------------FRASE----------------------------------------*/
@@ -148,8 +136,6 @@ ul{
     height: 800px;
     width: 100%;
 
-
-    border: solid #ffffff;
 }
 
 .carousel-inner{
@@ -157,14 +143,12 @@ ul{
     width: 100%;
     height: 100%;
 
-    border: solid #ffffff;
     }
 
 #carousel1{
     height: 100%;
     width: 100%;
 
-    border: solid #ffffff;
     }
 
 .frase_text{
@@ -175,7 +159,6 @@ ul{
     color: #ffffff;
     z-index: 90;
 
-    border: solid #ffffff;
 }
 
 .flechaabajo{
@@ -189,7 +172,6 @@ ul{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 
-    border: solid #ffffff;
 }
 
 .flechaabajo1{
@@ -203,7 +185,6 @@ ul{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 
-    border: solid #ffffff;
 }
 
 @keyframes flechaabajo1{
@@ -229,7 +210,6 @@ ul{
     font-family: "DIN PRO 400";
     color: #ffffff;    
 
-    border: solid #ffffff;
 }
 
 .serv-bloques{
@@ -240,7 +220,6 @@ ul{
     align-items: center;
     justify-content: space-around;
     
-    border: solid #ffffff;
 }
 
 .flip-card {
@@ -249,7 +228,6 @@ ul{
   height: 500px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
-  border: solid #ffffff;
 }
 
 /* This container is needed to position the front and back side */
@@ -260,8 +238,6 @@ ul{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
-  border: solid #ffffff;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -276,8 +252,6 @@ ul{
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-
-  border: solid #ffffff;
 }
 
 /* Style the front side */
@@ -287,8 +261,6 @@ ul{
     align-items: center;
     background-color: #f7c650;
     color: #1e2244;
-
-    border: solid #ffffff;
 }
 
 /* Style the back side */
@@ -300,8 +272,6 @@ ul{
     background-color: #f7c650;
     color: #1e2244;
     transform: rotateY(180deg);
-
-    border: solid #ffffff;
 }
 
 /*-----------------------------------NOSOTROS----------------------------------------*/
@@ -313,8 +283,6 @@ ul{
     width: 100%;
     display: flex;
     flex-direction: column;
-
-    border: solid #ffffff;
 }
 
 .nos_title_text{
@@ -325,8 +293,6 @@ ul{
     margin-bottom: 20px;
     font-family: "DIN PRO 400";
     color: #ffffff;
-
-    border: solid #ffffff;
 }
 
 #equipo{
@@ -336,8 +302,6 @@ ul{
     margin-bottom: 15px;
 
     border-radius: 50%;
-
-    border: solid #ffffff;
 }
 
 .primera_img{
@@ -347,8 +311,6 @@ ul{
     border-bottom: solid;
     border-color: #e63525;
     margin: 35px;
-
-    border: solid #ffffff;
 }
 
 .second_img{
@@ -359,8 +321,6 @@ ul{
     border-bottom: solid;
     border-color: #e63525;
     margin: 35px;
-
-    border: solid #ffffff;
 }
 
 .third_img{
@@ -377,28 +337,22 @@ ul{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    width: ;
+    width: s;
     margin: 35px;
 }
 
 
 .cont_text_img{
     text-align: center;
-
-    border: solid #ffffff;
     
 }
 
 .nos_persona{
     color: #ffffff;
-
-    border: solid #ffffff;
 }
 
 .nos_parr{
     color: #ffffff;
-
-    border: solid #ffffff;
 }
 
 /*------------------------------------OTRA SECCION-------------------------------------*/
@@ -432,7 +386,6 @@ ul{
     background-color: s;
     width: 100%;
 
-    border: solid #ffffff;
 }
 
 .parche{
@@ -442,7 +395,6 @@ ul{
     bottom: 0.5px;
     background-color: #1e2244;
     
-    border: solid #ffffff;
 }
 
 /*--------------------------------------FOOTER-----------------------------------------*/
@@ -457,14 +409,11 @@ ul{
     justify-content: space-between;
     align-items: center;
 
-
-    border: solid #ffffff;
 }
 
 .redes{
     left: 20px;
 
-    border: solid #ffffff;
 }
 
 .redes_imgs{
@@ -472,7 +421,6 @@ ul{
     height: 50px;
     width: 50px;
 
-    border: solid #ffffff;
 }
 
 .ubicacion{
@@ -480,20 +428,17 @@ ul{
     margin-right: 20px;
     margin-top: 10px;
 
-    border: solid #ffffff;
 }
 
 .pie_text{
     color: #ffffff;
     margin-top: 10px;
 
-    border: solid #ffffff;
 }
 
 .ydi2020{
     background-color: #e63525;
 
-    border: solid #ffffff;
 }
 
 
@@ -581,32 +526,21 @@ ul{
     }
     
     .nos_parr{
-        font-size: 20px;
+        font-size: 15px;
     }
 
+    .parche{
+        position: absolute;
+        height: 120px;
+    }
 
+    .pie_text{
+        font-size: 15px;
+        
+    }
 
+    .ubicacion{
+        font-size: 15px;
+    }
 
-
-
-
-
-
-/*
-paleta:
-principal: #1e2244
-secundario para destacados: #f7c650
-ITEMS: #e63525
-
-----------------------------------------------------------------------------------
-AGREGAR:
-preguntas frecuentes
-flecha hacia abajo en FRASE
-
-
-----------------------------------------------------------------------------------
-TIPOGRAFIA: DIN PRO
-principal (titulos): PRO 400
-textos: Pro Medium 500
-algo chiquito: PRO Light 300
-*/
+    

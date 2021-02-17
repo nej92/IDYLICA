@@ -1,3 +1,0 @@
-textos FRASE
-textos SERVICIOS
-textos NOSOTROS (nombre y descripcion de c/u)
