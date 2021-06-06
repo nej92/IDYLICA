@@ -15,7 +15,7 @@ body{
 }
 
 html{
-    
+    scroll-behavior: smooth;
     font-size: 20px;
 
 }
@@ -27,16 +27,18 @@ html{
 
 header{
     display: flex;
-    height: 200px;
+    height: 110px;
     width: 100%;
-
+    
 }
 
 .logo{
-    position: absolute;
+    position: fixed;
     height: 200px;
     width: 200px;
+    top: -50px;
     left: 20px;
+    z-index: 90;
 
 }
 
@@ -50,7 +52,7 @@ header{
 }
 
 .menu-ima{
-    position: absolute;
+    position: fixed;
     height: 35px;
     width: 35px;
     right: 35px;
@@ -64,20 +66,28 @@ header{
 
 #btn-menu:checked ~ * .menu-ima-x {
     visibility: visible;
+    
 }
 
 .menu-ima-x{
-    position: absolute;
+    position: fixed;
     right: 35px;
     top: 20px;
     height: 35px;
     width: 35px;
     visibility: hidden;
+    z-index: 101;
 
 }
 
 #btn-menu:checked ~ .menu{
     visibility: visible;
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transition: all 0.5s;
 }
 
 .cont_menu{
@@ -85,30 +95,26 @@ header{
     width: 100%;
     position: sticky;
     right: 100px;
-    top: 20px;
+    top: 0px;
     z-index: 100;
 
 }
 
 .menu {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     background-color: #e63525;
-    width: 500px;
-    height: 500px;
+    opacity: 0.8;
     right: 100px;
     top: 20px;
-    transition: all 0.5s;
     visibility: hidden;
-    
+
     }
 
 a{
     color: #1e2244;
-    font-size: 25px;
     font-family: "DIN PRO 400";
     color: #ffffff;
     
@@ -116,14 +122,17 @@ a{
 
 ul{
     list-style-type: none;
-    
+    text-align: center;
 }
 
 .redes_top{
-    position: absolute;
+    position: fixed;
     right: 100px;
     top: 20px;
+}
 
+li{
+    font-size: 70px;
 }
 
 /*-----------------------------------FRASE----------------------------------------*/
@@ -161,11 +170,12 @@ ul{
 
 }
 
+
 .flechaabajo{
     position: absolute;
     height: 50px;
     width: 50px;
-    left: 25.6%;
+    left: 50%;
     bottom: 100px;
     z-index: 90;
     animation-name: flechaabajo;
@@ -173,7 +183,7 @@ ul{
     animation-iteration-count: infinite;
 
 }
-
+/*
 .flechaabajo1{
     position: absolute;
     height: 50px;
@@ -191,10 +201,10 @@ ul{
     from {bottom: 75px;}
     to {bottom: 30px;}
 }
-
+*/
 @keyframes flechaabajo{
-    from {bottom: 100px;}
-    to {bottom: 30px;}
+    from {bottom: 80px;}
+    to {bottom: 40px;}
 }
 /*-----------------------------------SERVICIOS----------------------------------------*/
 /*-----------------------------------SERVICIOS----------------------------------------*/
@@ -215,7 +225,7 @@ ul{
 .serv-bloques{
     display: flex;
     position: relative;
-    height: 600px;
+    height: 800px;
     width: 100%;
     align-items: center;
     justify-content: space-around;
@@ -225,7 +235,7 @@ ul{
 .flip-card {
   background-color: transparent;
   width: 640px;
-  height: 500px;
+  height: 800px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
 }
@@ -381,7 +391,7 @@ ul{
     position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px ;
+    margin-bottom:  s;
     -webkit-image-set: url("");
     background-color: s;
     width: 100%;
@@ -451,6 +461,7 @@ ul{
     .logo{
         height: 100px;
         width: 100px;
+        top: 0px
     }
 
     .redes_imgs{
@@ -542,5 +553,3 @@ ul{
     .ubicacion{
         font-size: 15px;
     }
-
-    
